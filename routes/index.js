@@ -1,4 +1,5 @@
 var express = require('express');
+var redis = require('../models/redis');
 var router = express.Router();
 
 /* GET home page. */
